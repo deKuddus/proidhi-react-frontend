@@ -16,7 +16,7 @@ const List: React.FC = () => {
   const getPost = async (): Promise<void> => {
     try {
       // Example API call
-      const response = await fetch(`http://poridhi-backend.test/api/post/`, {
+      const response = await fetch(`http://104.196.68.149/api/post/`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ const List: React.FC = () => {
       try {
         // Example API call
         const response = await fetch(
-          `http://poridhi-backend.test/api/post/${post.id}`,
+          `http://104.196.68.149/api/post/${post.id}`,
           {
             method: 'DELETE',
             headers: {

@@ -22,7 +22,7 @@ const Form: React.FC = () => {
       // send post request to api to save post, if post is successful then redirect to / route
       try {
         // Example API call
-        const response = await fetch('http://poridhi-backend.test/api/post', {
+        const response = await fetch('http://104.196.68.149/api/post', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

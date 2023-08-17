@@ -35,7 +35,7 @@ const Modal: React.FC<ModalProps> = ({ post, handleModalhide }) => {
       try {
         // Example API call
         const response = await fetch(
-          `http://poridhi-backend.test/api/post/${post.id}`,
+          `http://104.196.68.149/api/post/${post.id}`,
           {
             method: 'PUT',
             headers: {
